@@ -1,13 +1,13 @@
 @font-face {
-	font-family: "rodin";
-	src: url("rodin.otf");
+	font-family: "frutiger";
+	src: url("frutiger.ttf");
 }
 
 body {
     width: 100%;
     height: 100%;
     background-color: #2038a2;
-    font-family: "rodin", Arial, Helvetica, sans-serif;
+    font-family: "frutiger", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -32,9 +32,11 @@ a {
     background-size: cover;
     height: 280px;
     display: inline-grid;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
     border: solid 0px rgba(255,255,255,0.2);
+    border-radius: 0px;
+    box-shadow: 4px 4px 8px #000000;
 }
 
 .chanbox:hover {
@@ -45,11 +47,14 @@ a {
 .clockbox {
     width: 100%;
     height: 48px;
+    padding-top: 10px;
 }
 
 .clock {
     font-size:36px;
     color: white;
+    text-shadow: 2px 0px 4px #000000;
+    
 }
 
 .bg {
